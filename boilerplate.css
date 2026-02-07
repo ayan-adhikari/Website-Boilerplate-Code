@@ -1,11 +1,11 @@
 /*=============================
-   Color Variables (black is a placeholder)
+   Color Variables (transparent/black is a placeholder)
 =============================*/
 :root {
-    --main: ;
-    --secondary: black; /*Lighter version of main*/
-    --accent-1: black;
-    --accent-2: black;
+    --main: transparent;
+    --secondary: transparent; /*Lighter version of main*/
+    --accent-1: transparent;
+    --accent-2: transparent;
     --text: black;
 }
 
