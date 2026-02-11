@@ -50,3 +50,19 @@
     padding: 1rem 0;
     margin-bottom: clamp(1rem, 1vh, 10rem);
 }
+
+/=============================
+Text size and font formatting
+=============================/
+.header-text
+{
+font-size: clamp(3rem, 2vw, 5rem);
+}
+.subheading-text
+{
+font-size: clamp(2rem, 1.5vw, 3rem);
+}
+.body-text
+{
+font-size: clamp(1rem, 1.2vw, 1.3rem);
+}
