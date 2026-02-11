@@ -51,9 +51,9 @@
     margin-bottom: clamp(1rem, 1vh, 10rem);
 }
 
-/=============================
+/*=============================
 Text size and font formatting
-=============================/
+=============================*/
 .header-text
 {
 font-size: clamp(3rem, 2vw, 5rem);
