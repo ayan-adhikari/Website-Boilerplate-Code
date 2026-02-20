@@ -20,13 +20,14 @@
     background-color: var(--secondary);
 }
 
-.accent-1 {
+.accent-1-bg {
     background-color: var(--accent-1);
 }
 
-.accent-2 {
+.accent-2-bg {
     background-color: var(--accent-2);
 }
+
 
 .text {
     color: var(--text);
