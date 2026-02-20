@@ -1,12 +1,16 @@
 /*=============================
-   Color Variables (transparent/black is a placeholder)
+   Variables
 =============================*/
 :root {
+   /*Color Variables (transparent/black is a placeholder)*/
     --main: transparent;
     --secondary: transparent; /*Lighter version of main*/
     --accent-1: transparent;
     --accent-2: transparent;
     --text: black;
+   /*Font variables*/
+   --heading-font: insert-heading-font;
+   --body-font: insert-body-font;
 }
 
 /*=============================
@@ -55,7 +59,7 @@
 /*=============================
 Text size and font formatting
 =============================*/
-.header-text
+.heading-text
 {
 font-size: clamp(3rem, 2vw, 5rem);
 }
