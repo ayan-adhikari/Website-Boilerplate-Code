@@ -56,7 +56,10 @@
     margin: 0rem;
     font-family: var(--heading-font);
 }
-
+h1
+{
+   margin: 0rem;
+}
 /*=============================
 Text size and font formatting
 =============================*/
