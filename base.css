@@ -47,13 +47,14 @@
 
     /*Background color (transparent by default)*/
     background-color: transparent;
-
+    
     /*Text and Padding settings*/
     text-align: center;
-    font-size: clamp(2.5rem, 3vw, 5rem);
-    min-height: 3rem;
-    padding: 1rem 0;
-    margin-bottom: clamp(1rem, 1vh, 10rem);
+    font-size: clamp(2rem, 2.5vw, 5rem);
+    min-height: 1.5rem;
+    padding: 0.5rem 0;
+    margin-bottom: clamp(0.5rem, 0.5vh, 3rem);
+    font-family: var(--heading-font);
 }
 
 /*=============================
