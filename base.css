@@ -50,15 +50,15 @@
     
     /*Text and Padding settings*/
     text-align: center;
-    font-size: clamp(2rem, 2.5vw, 5rem);
+    font-size: clamp(1rem, 2.5vw, 5rem);
     min-height: 1.5rem;
     padding: 0.5rem 0;
-    margin: 0rem;
-    font-family: var(--heading-font);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
-h1
-{
-   margin: 0rem;
+
+.header h1 {
+    margin: 0;
 }
 /*=============================
 Text size and font formatting
