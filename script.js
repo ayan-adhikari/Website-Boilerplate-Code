@@ -3,6 +3,10 @@ window.addEventListener(`load`, pageLoaded)
 function pageLoaded()
 {
     console.log(`Page loaded`)
+    /*
+    document.getElementById("page-content").classList.remove("hidden")
+    document.getElementById("loading-screen").classList.add("hidden")
+    */
 }
 //Function for generating numbers between min to max (includinng min and max)
 function generateRandomNumber(min, max) 

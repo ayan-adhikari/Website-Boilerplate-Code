@@ -1,0 +1,61 @@
+/*CSS for loader*/
+.outer-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border-top: #ff6347;
+    border-style: solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    animation: spin 3s infinite linear;
+
+}
+.middle-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border-top: dodgerblue;
+    border-style: solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    animation: spin 3s infinite linear;
+
+}
+.inner-loader {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border-top: limegreen;
+  border-style: solid;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: transparent;
+  animation: spin 3s infinite linear;
+
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#loading-page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
