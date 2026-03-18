@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="elements.css">
+    <link rel="stylesheet" href="loader.css">
     <!-- JS -->
     <script src="script.js" defer></script>
 </head>
 <body class="text main-bg">
-    <div id="page-content">
+    <div id="page-content" class="hidden">
         <!-- Header -->
         <header class="header">
             <h1>Header</h1>
@@ -29,8 +30,14 @@
             <!-- Add your content here -->
         </main>
     </div>
-    <div id="loading-screen">
-        <!--Insert loading screen-->
+    <div id="loading-screen" class="flexbox">
+        <div id="loader-wrapper" class="flexbox">
+            <div id="outer-loader">
+                <div id="middle-loader">
+                    <div id="inner-loader"></div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
