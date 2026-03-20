@@ -1,7 +1,7 @@
 /*CSS for loader*/
 #outer-loader {
-  width: 28vw;
-  height: 28vw;
+  width: 28vh;
+  height: 28vh;
   border-radius: 50%;
   border-top: #ff6347;
   border-style: solid;
@@ -9,11 +9,10 @@
   border-right: transparent;
   border-bottom: transparent;
   animation: spin 5s infinite linear;
-
 }
 #middle-loader {
-  width: 24vw;
-  height: 24vw;
+  width: 24vh;
+  height: 24vh;
   border-radius: 50%;
   border-top: dodgerblue;
   border-style: solid;
@@ -21,11 +20,10 @@
   border-right: transparent;
   border-bottom: transparent;
   animation: spin 5s infinite linear;
-
 }
 #inner-loader {
-  width: 20vw;
-  height: 20vw;
+  width: 20vh;
+  height: 20vh;
   border-radius: 50%;
   border-top: limegreen;
   border-style: solid;
@@ -33,7 +31,6 @@
   border-right: transparent;
   border-bottom: transparent;
   animation: spin 5s infinite linear;
-
 }
 @keyframes spin {
   0% {
@@ -64,4 +61,21 @@
   align-items: center;
   flex-direction: column;
   background-color: #fff;
+}
+
+/*Change loaders to use vw instead of vh on larger screens*/
+@media (min-width: 600px) 
+{
+  #outer-loader {
+    width: 28vw;
+    height: 28vw;
+  }
+  #middle-loader {
+    width: 24vw;
+    height: 24vw;
+  }
+  #inner-loader {
+    width: 20vw;
+    height: 20vw;
+  }
 }
