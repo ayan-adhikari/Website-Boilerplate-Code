@@ -1,4 +1,4 @@
-#Website Boilerplate Code
+# Website Boilerplate Code
 ---
 This is some html, css and js boilerplate code to create projects faster. It includes a colour scheme template and some useful premade classes. 
 
