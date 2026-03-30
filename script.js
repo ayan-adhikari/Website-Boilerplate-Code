@@ -15,6 +15,8 @@ function pageLoaded()
     document.getElementById("inner-loader").classList.remove("flexbox")
     //Show main page
     document.getElementById("page-content").classList.remove("hidden")
+    //Remove whit-bg class from body
+    document.getElementById(`body`).classList.remove(`white-bg`)
   }, 1); /*This is the delay which can be increased for testing and is 1ms by default*/
     
   
