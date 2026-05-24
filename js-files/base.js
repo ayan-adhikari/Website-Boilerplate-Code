@@ -27,7 +27,6 @@ function pageLoaded()
   }, 1);
   //Arrow function for changing from loading screen to regular screen
   setTimeout(() => {
-    console.log(`Page loaded`)
     //Hide main loading screen and wrapper
     document.getElementById("loading-screen").classList.add("hidden")
     document.getElementById("loader-wrapper").classList.add("hidden")
